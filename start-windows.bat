@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+call npm run install:all
+echo.
+echo Starting HomeBuild...
+call npm run dev
